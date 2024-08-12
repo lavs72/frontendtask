@@ -1,0 +1,143 @@
+/* General styles for the app */
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4; /* Light grey background for the entire app */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.container{
+  width:80%;
+  margin:0 auto;
+  max-width:1400px;
+}
+
+/* Header styles */
+.header {
+  padding: 10px;
+  border-bottom: 1px solid #ddd; /* Lighter border color */
+  background-color: lavender; /* Dark background for the header */
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+/* Navigation styles */
+.nav {
+  background-color: lightcyan; /* Darker background for the navigation */
+  padding: 15px;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 65px; /* Decreased gap between items */
+}
+
+.nav-item {
+  cursor: pointer;
+  color:red;
+  font-size: 25px; /* Adjusted font size */
+}
+
+.nav-item.ai-innovations {
+  color: #ff6f61; /* Adjusted color */
+}
+
+.nav-item.features {
+  color: #1e88e5; /* Adjusted color */
+}
+
+.nav-item.safety {
+  color: #43a047; /* Adjusted color */
+}
+
+.nav-item.by-google {
+  color: #fbc02d; /* Adjusted color */
+}
+
+.nav-item.extensions {
+  color: #e57373; /* Adjusted color */
+}
+
+/* Main content styles */
+.main-content {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Hero section styles */
+.hero-section {
+  margin-bottom: 55px;
+  padding: 60px; /* Adjusted padding */
+  border-radius: 8px;
+  background-color: #ffffff; /* White background for the hero section */
+  color: #333; /* Dark text color for contrast */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-title {
+  font-size: 60px; /* Adjusted font size */
+  margin-bottom: 30px;
+}
+
+/* Options container styles */
+.options-box {
+  background-color: lightgray; /* Light grey background for the options container */
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.option {
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #ffffff; /* White background for options */
+  color: black; /* Blue text color */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.option:hover {
+  background-color: #007bff; /* Blue background on hover */
+  color: lightgreen; /* White text color on hover */
+}
+
+/* Download text and link styles */
+.download-text {
+  font-size: 18px; /* Increased font size */
+  color: #333;
+  margin-top:20px; /* Dark text color */
+}
+
+.download-link {
+  color: #007bff; /* Blue color for the link */
+  text-decoration: underline;
+  font-size: 15px;
+  font-weight:bold; /* Match the font size with the text */
+}
+
+/* Slider styles */
+.slider {
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 20px;
+}
+
+.slide-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
